@@ -15,18 +15,68 @@
 
 <body>
 
-    <!------------------------------>
-    <!-- Your HTML Layout go here -->
-    <!------------------------------>
-    <!-- Stuff for body goes here -->
+    <header class="w-100 bg-white text-black pt-3 position-fixed bottom-0 start-50 translate-middle-x">
+        <nav class="justify-content-center align-items-center d-flex">
+            <ul class="list-unstyled d-flex flex-row gap-5">
+                <li><a href="#"><i class="bi bi-house-door fs-1 text-black"></i></a></li>
+                <li><a href="#"><i class="bi bi-heart fs-1 text-black"></i></a></li>
+                <li><a href="#"><i class="bi bi-person fs-1 text-black"></i></a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <header class="w-100 position-fixed top-0 start-0 p-2 bg-white">
+        <div class="d-flex flex-row gap-2 align-content-center">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA71lImfnzG0f3pSDBCq9Ds8hKuF1Ug0Et8MTaLYPl3w&s"
+                alt="elmo" width="50" height-50>
+            <h2>ElmoHikes</h2>
+        </div>
+    </header>
 
-    <!---------------------------------------------->
-    <!-- Your own JavaScript functions go here    -->
-    <!---------------------------------------------->
+    <main class="px-2 mt-5">
+        <header class="text-center pt-5">
+            <h1 class="mb-4">Welcome to Elmo Hikes!</h1>
+            <p>This is some paragraph text for the hero section that displays my ability to write. This is some
+                paragraph text for the hero section that displays my ability to write. This is some paragraph text for
+                the hero section that displays my ability to write. This is some paragraph text for the hero section
+                that displays my ability to write. This is some paragraph text for the hero section that displays my
+                ability to write.</p>
+            <button class="p-3 fs-5 bg-black text-white border-0 rounded">Login</button>
+            <button class="p-3 fs-5 border-0 rounded">Register</button>
+        </header>
 
-    <!-- Link to scripts of your own -->
-    <!-- <script type="module" src="./src/main.js"></script> -->
+        <section class="mt-5 d-flex flex-column flex-lg-row align-items-sm-center gap-2 mx-auto">
+            <!-- 3 cards -->
+            <div class="p-2 bg-info rounded">
+                <img class="w-100 object-fit-cover" width="1" height="300"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2N7oXKCsZiPBiRePADLRqpy48zv0p0ahjlvhlp99lWw&s=10"
+                    alt="Alternative image description">
+                <h2>Card title</h2>
+                <p>Some paragraph text describing the card and the stuff it has to do with.</p>
+            </div>
+            <div class="p-2 bg-info rounded">
+                <img class="w-100 object-fit-cover" width="1" height="300"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8hinppQbL-zyg4GU-v4x7kV78TCxs2xOhOizk0IblYwjzd1PYNuOUx4q4&s=10"
+                    alt="Alternative image description">
+                <h2>Card title</h2>
+                <p>Some paragraph text describing the card and the stuff it has to do with.</p>
+            </div>
+            <div class="p-2 bg-info rounded">
+                <img class="w-100 object-fit-cover" width="1" height="300"
+                    src="https://randomwordgenerator.com/img/picture-generator/g33815e6df811c258a606a9a313eb798de88de92031fc196fe0bb1d4bd4fa6be7c59d43cfbfedd1268b185db543d21ba8_640.jpg"
+                    alt="Alternative image description">
+                <h2>Card title</h2>
+                <p>Some paragraph text describing the card and the stuff it has to do with.</p>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="py-5 mb-5 text-center">
+        <p>&copy; ihawp 2026</p>
+    </footer>
+
+    <script type="module" src="./src/main.js"></script>
 
 </body>
 
